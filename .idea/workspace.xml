@@ -138,7 +138,7 @@
             <state relative-caret-position="289">
               <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
               <folding>
-                <element signature="e#10555#10561#1" expanded="true" />
+                <element signature="e#10650#10656#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1475,7 +1475,7 @@
       <workItem from="1508690102950" duration="10215000" />
       <workItem from="1508847002660" duration="4406000" />
       <workItem from="1508981491739" duration="3240000" />
-      <workItem from="1508985215338" duration="6614000" />
+      <workItem from="1508985215338" duration="6626000" />
     </task>
     <task id="LOCAL-00001" summary="First Family-App Commit">
       <created>1509022383779</created>
@@ -1491,7 +1491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509022449816</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First Family-App Commit">
+      <created>1509022490963</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1509022490963</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1521,7 +1528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24475000" />
+    <option name="totallyTimeSpent" value="24487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -2112,7 +2119,7 @@
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding>
-            <element signature="e#10555#10561#1" expanded="true" />
+            <element signature="e#10650#10656#1" expanded="true" />
           </folding>
         </state>
       </provider>
