@@ -1,17 +1,17 @@
 package com.familyapp.controller;
 
-import com.familyapp.data.FamilyMemberRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.familyapp.model.FamilyMember;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class FamilyController {
 
-    @Autowired
-    private FamilyMemberRepository familyMemberRepository;
+    //@Autowired
+    //private FamilyMemberRepository familyMemberRepository;
 
     @GetMapping("/")
     public String index() {
@@ -20,14 +20,17 @@ public class FamilyController {
         }
 
 
-    @RequestMapping("/familyMember")
-    public String familyDetails(Model model) {
-        //FamilyMember familyMember = new FamilyMember(1, "Bill", "Jamrozik", "Jamrozik", LocalDate.of(1940, 1, 1));
-        familyMemberRepository.findMemberByName("Rich");
-        // model.addAttribute("familyMember", familyMember);
-        return "home";
+    @GetMapping("/member-lookup")
+    public String memberLookupForm(Model model) {
+        model.addAttribute("familyMember", new FamilyMember());
+        return "familyMemberLookupByNameForm";
     }
 
+
+    @PostMapping("/member-lookup")
+    public String memberLookupSubmit(@ModelAttribute FamilyMember familyMember) {
+        return "result";
+    }
 
 }
 

@@ -27,7 +27,8 @@ public class FamilyControllerTest {
     @Test
     public void home_ReturnsHomeView () throws Exception {
         mockMvc.perform(get("/"))
-                .andExpect(status().isOk());
+                .andExpect(status().isOk())
+                .andExpect(view().name("home-page/index"));
     }
 
 }
