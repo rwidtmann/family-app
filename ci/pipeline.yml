@@ -11,4 +11,4 @@ jobs:
   plan:
   - get: code
   - task: deploy-development
-    run: cf push family-app -p build/libs/family-app-1.0-SNAPSHOT.jar
+    run: ./myRun.sh
