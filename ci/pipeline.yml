@@ -1,14 +1,13 @@
 resources:
-- name: code
+- name: resource-family-code
   type: git
   source:
     uri: https://github.com/rwidtmann/family-app.git
 
-
 jobs:
-- name: deploy-development
+- name: job-rich-22
   public: true
   plan:
-  - get: code
-  - task: deploy-development
-    run: ./myRun.sh
+  - get: resource-family-code
+  - task: hello-world
+    file: resource-family-code/ci/myRun.sh
