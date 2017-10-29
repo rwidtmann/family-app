@@ -1,0 +1,14 @@
+resources:
+- name: code
+  type: git
+  source:
+    uri: https://github.com/rwidtmann/family-app.git
+
+
+jobs:
+- name: deploy-development
+  public: true
+  plan:
+  - get: code
+  - task: deploy-development
+    run: cf push family-app -p build/libs/family-app-1.0-SNAPSHOT.jar

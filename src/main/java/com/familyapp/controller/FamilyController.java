@@ -23,13 +23,13 @@ public class FamilyController {
     @GetMapping("/member-lookup")
     public String memberLookupForm(Model model) {
         model.addAttribute("familyMember", new FamilyMember());
-        return "familyMemberLookupByNameForm";
+        return "member-lookup/familyMemberLookupByNameForm";
     }
 
 
     @PostMapping("/member-lookup")
     public String memberLookupSubmit(@ModelAttribute FamilyMember familyMember) {
-        return "result";
+        return "member-lookup/memberLookupResult";
     }
 
 }

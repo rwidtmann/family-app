@@ -6,48 +6,21 @@
 </head>
 <body>
 <h1>Home</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque autem consectetur cum dicta dolore doloremque
-    ducimus error est facere fuga ipsum minima nulla qui quo repellat sint velit, voluptatem.</p>
-<!--<img th:src="@{/photos/compiler-bot.gif}" alt="logo"/>-->
-<!--<img th:src="@{/photos/compiler-bot.gif}" alt="logo"/>-->
-
-<form id="family-member-form"
-      method="post"
-      th:action="@{/member-lookup/index.html}"
-      th:object="${familyMemberForm}">
-    <div class="row">
-        <div class="col-md-4 form-group">
-            <label th:for="firstName" class="control-label">First Name<span>*</span></label>
-            <input type="text" th:field="*{firstName}"/>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4 form-group">
-            <label th:for="lastName" class="control-label">Last Name</label>
-            <input type="text"  th:field="*{lastName}"/>
-        </div>
-
-        <div class="col-md-4 form-group">
-            <label th:for="groupNumber" class="control-label">Middle Name</label>
-            <input type="text" th:field="*{middleName}"/>
-        </div>
-
-
-    </div>
-
-    <div class="none submit-buttons">
-        <button class="btn btn-primary">Create</button>
-        <a class="btn btn-default" th:href="@{/member-lookup}">Cancel</a>
-    </div>
-</form>
+<p>
+    <h3>Welcome to the Family App Home Page</h3>
+</p>
+<div>
+    <a th:href="@{member-lookup}">Search by Name</a>
+</div>
+<p>
+<div>-->
+    <img th:src="@{/photos/max_running.jpg}"/>
+</div>
+<div>
+    <img th:src="@{/photos/leo_taking_signals.jpg}"/>
+</div>
+</p>
 </body>
 </html>
 
 
-
-<!--<div class="col-md-4 form-group"-->
-     <!--th:classappend="${#fields.hasErrors('accountNumber')} ? 'has-error' : ''">-->
-    <!--<label th:for="accountNumber" class="control-label">Account Number <span>*</span></label>-->
-    <!--<input class="form-control" th:field="*{accountNumber}"/>-->
-<!--</div>-->
