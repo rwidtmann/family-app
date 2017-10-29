@@ -18,7 +18,6 @@ jobs:
     trigger: true
   - task: deploy-development
     config:
-      <<: *CONFIG
       inputs:
       - name: code
       run:

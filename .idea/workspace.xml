@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d3a274a-c0b7-4095-a8ca-8d2ec8943b2e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/application-default.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/db/migration/V1_1__createFamilyMembers.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/db/migration/V1_2__insertFamilyMembers.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/static/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/static/photos/android-explosion.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/static/photos/ben-and-mike.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/static/photos/book-dominos.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/static/photos/compiler-bot.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/static/photos/cowboy-coder.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/static/photos/infinite-andrew.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/templates/home-page/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/templates/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/family-app/templates/member-lookup/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ci/myRun.sh" afterPath="$PROJECT_DIR$/ci/myRun.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ci/pipeline.yml" afterPath="$PROJECT_DIR$/ci/pipeline.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -161,8 +146,8 @@
       <file leaf-file-name="pipeline.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ci/pipeline.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="129">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -241,7 +226,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>flyway</find>
       <find>w</find>
       <find>widtman</find>
       <find>widtmann_</find>
@@ -271,6 +255,7 @@
       <find>form</find>
       <find>th:src</find>
       <find>source</find>
+      <find>confit</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -1604,7 +1589,7 @@
       <workItem from="1508981491739" duration="3240000" />
       <workItem from="1508985215338" duration="17018000" />
       <workItem from="1509189131603" duration="27058000" />
-      <workItem from="1509307041324" duration="998000" />
+      <workItem from="1509307041324" duration="1071000" />
     </task>
     <task id="LOCAL-00001" summary="First Family-App Commit">
       <created>1509022383779</created>
@@ -1670,7 +1655,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62935000" />
+    <option name="totallyTimeSpent" value="63008000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2158,8 +2143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ci/pipeline.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="129">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
