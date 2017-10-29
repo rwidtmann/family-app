@@ -14,4 +14,4 @@ jobs:
   - task: hello-world
     file: resource-family-code/ci/task_hello_world.yml
   - task: step-two
-    file: resource-family-code/ci/myRun.sh
+    file: resource-family-code/ci/myRun2.sh
