@@ -1,3 +1,5 @@
+platform: linux
+
 resources:
 - name: resource-family-code
   type: git
@@ -10,4 +12,4 @@ jobs:
   plan:
   - get: resource-family-code
   - task: hello-world
-    file: resource-family-code/ci/myRun.sh
+    file: resource-family-code/ci/task_hello_world.yml
