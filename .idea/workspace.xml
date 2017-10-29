@@ -146,8 +146,8 @@
       <file leaf-file-name="pipeline.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ci/pipeline.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1589,7 +1589,7 @@
       <workItem from="1508981491739" duration="3240000" />
       <workItem from="1508985215338" duration="17018000" />
       <workItem from="1509189131603" duration="27058000" />
-      <workItem from="1509307041324" duration="1071000" />
+      <workItem from="1509307041324" duration="1590000" />
     </task>
     <task id="LOCAL-00001" summary="First Family-App Commit">
       <created>1509022383779</created>
@@ -1655,7 +1655,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63008000" />
+    <option name="totallyTimeSpent" value="63527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2143,8 +2143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ci/pipeline.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
