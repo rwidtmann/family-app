@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d3a274a-c0b7-4095-a8ca-8d2ec8943b2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/family-app-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/family-app-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/family-app-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/build/libs/family-app-1.0-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ci/pipeline.yml" afterPath="$PROJECT_DIR$/ci/pipeline.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -144,8 +137,8 @@
       <file leaf-file-name="pipeline.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ci/pipeline.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="425">
+              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -1590,7 +1583,7 @@
       <workItem from="1508981491739" duration="3240000" />
       <workItem from="1508985215338" duration="17018000" />
       <workItem from="1509189131603" duration="27058000" />
-      <workItem from="1509307041324" duration="6905000" />
+      <workItem from="1509307041324" duration="7992000" />
     </task>
     <task id="LOCAL-00001" summary="First Family-App Commit">
       <created>1509022383779</created>
@@ -1656,7 +1649,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68842000" />
+    <option name="totallyTimeSpent" value="69929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2155,8 +2148,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ci/pipeline.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding />
         </state>
       </provider>

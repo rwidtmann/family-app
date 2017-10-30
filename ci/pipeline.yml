@@ -2,7 +2,7 @@ config: &CONFIG
   platform: linux
 
 resources:
-- name: code
+- name: resource-code
   type: git
   source:
     uri: https://github.com/rwidtmann/family-app.git
@@ -10,21 +10,20 @@ resources:
     password: kato1rjw
     branch: master
     skip_ssl_verification: true
-    path: src/**
 
 
 job:
 - name: deploy-development
   plan:
-  - get: code
+  - get: resource-code
     trigger: true
-    passed: code
+    passed: [resource-code]
   - task: deploy-development
     config:
       inputs:
-      - name: code
+      - name: resource-code
       run:
-        dir: code
+        dir: resource-code
         path: ./gradlew
         args: cfPush
       params: &cf-development-params
