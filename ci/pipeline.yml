@@ -10,13 +10,15 @@ resources:
     password: kato1rjw
     branch: master
     skip_ssl_verification: true
+    path: src/**
 
 
-jobs:
+job:
 - name: deploy-development
   plan:
   - get: code
     trigger: true
+    passed: code
   - task: deploy-development
     config:
       inputs:
@@ -26,7 +28,6 @@ jobs:
         path: ./gradlew
         args: cfPush
       params: &cf-development-params
-        VERSION: latest-version/number
         CF_TARGET: https://api.run.pivotal.io
         CF_ORGANIZATION: widtmann
         CF_USERNAME: rwidtmann@sbcglobal.net

@@ -75,14 +75,19 @@ dependencies {
 
 
 cloudfoundry {
-	target = 'https://api.run.pivotal.io'
-	trustSelfSignedCerts = true
-	username = 'rwidtmann@sbcglobal.net'
-	password = 'Kato1!rjw'
-	organization = 'widtmann'
-	space = 'development'
-	application = 'family-app'
-    file = file("${buildDir}/${archivesBaseName}-${version}.jar")
+    target = 'https://api.run.pivotal.io'
+    trustSelfSignedCerts = true
+    username = 'rwidtmann@sbcglobal.net'
+    password = 'Kato1!rjw'
+    organization = 'widtmann'
+    space = 'development'
+    application = 'family-app'
+    file = file("${buildDir}/libs/${archivesBaseName}-${version}.jar")
+
+    services {
+        "family-app-db" {
+            label = "family-app-db"
+            plan = "2048mb-dev"
+        }
+    }
 }
-
-
