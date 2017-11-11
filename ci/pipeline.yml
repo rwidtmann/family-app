@@ -1,20 +1,35 @@
 config: &CONFIG
   platform: linux
 
-resources:
-- name: resource-code
-  type: git
-  source:
-    uri: https://github.com/rwidtmann/family-app.git
-
+#resources:
+#- name: resource-code
+#  type: git
+#  source:
+#    uri: https://github.com/rwidtmann/family-app.git
+#    username: rwidtmann@sbcglobal.net
+#    password: kato1rjw
+#    branch: master
+#    skip_ssl_verification: true
 
 jobs:
-- name: job-deploy-development
-  public: true
+- name: deploy-development
   plan:
-  - get: resource-code
+#  - get: resource-code
+#    trigger: false
   - task: deploy-development
+    config:
+      <<: *CONFIG
+#      inputs:
+#      - name: resource-code
       run:
-        dir: resource-code
+#        dir: resource-code
         path: ./gradlew
-        args: cfPush
+        args:
+        - cfPush
+      params:
+        CF_TARGET: https://api.run.pivotal.io
+        CF_ORGANIZATION: widtmann
+        CF_USERNAME: rwidtmann@sbcglobal.net
+        CF_PASSWORD: Kato1!rjw
+        CF_APPLICATION: family-app
+        CF_SPACE: development

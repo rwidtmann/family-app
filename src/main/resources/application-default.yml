@@ -11,5 +11,3 @@ spring:
 security:
   basic:
     enabled: false
-
-#binq.url: http://gateway-test-in-proc.test.hcscint.net/services/ccsp/uat-3a/BenefitInquiry/v4

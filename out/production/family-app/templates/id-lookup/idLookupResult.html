@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>id-lookup-result | family-app</title>
+</head>
+<body>
+    <p th:text="'Id: ' + ${familyMembers.id}" />
+    <p th:text="'First Name: ' + ${familyMembers.firstName}" />
+    <p th:text="'Last Name: ' + ${familyMembers.lastName}" />
+    <p th:text="'Middle Name: ' + ${familyMembers.middleName}" />
+    <p th:text="'Date of Birth: ' + ${familyMembers.dob}" />
+</body>
+</html>

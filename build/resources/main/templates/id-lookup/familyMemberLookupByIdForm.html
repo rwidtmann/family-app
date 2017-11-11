@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>family | Id Lookup</title>
+</head>
+<body>
+<h1>Member Lookup Page</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque autem consectetur cum dicta dolore doloremque
+    ducimus error est facere fuga ipsum minima nulla qui quo repellat sint velit, voluptatem.</p>
+
+
+<form id="id-lookup-form"
+      method="post"
+      th:action="@{/id-lookup}"
+      th:object="${familyMember}">
+    <div class="row">
+        <div class="col-md-4 form-group">
+            <label th:for="id" class="control-label">Id<span>*</span></label>
+            <input type="text" th:field="*{id}"/>
+        </div>
+    </div>
+
+
+    <div class="none submit-buttons">
+        <button class="btn btn-primary">Create</button>
+        <a class="btn btn-default" th:href="@{/}">Cancel</a>
+    </div>
+</form>
+</body>
+</html>

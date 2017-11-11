@@ -11,106 +11,123 @@
     <schema id="5" parent="1" name="performance_schema"/>
     <schema id="6" parent="1" name="test"/>
     <schema id="7" parent="1" name="widtmann_db"/>
-    <table id="8" parent="2" name="family_members"/>
-    <table id="9" parent="2" name="schema_version"/>
-    <column id="10" parent="8" name="id">
+    <schema id="8" parent="1" name="db_example"/>
+    <table id="9" parent="2" name="family_members"/>
+    <table id="10" parent="2" name="schema_version"/>
+    <table id="11" parent="2" name="user"/>
+    <column id="12" parent="9" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="11" parent="8" name="first_name">
+    <column id="13" parent="9" name="first_name">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="12" parent="8" name="last_name">
+    <column id="14" parent="9" name="last_name">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="13" parent="8" name="middle_name">
+    <column id="15" parent="9" name="middle_name">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="14" parent="8" name="maiden_name">
+    <column id="16" parent="9" name="maiden_name">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="15" parent="8" name="dob">
-      <Position>6</Position>
-      <DataType>datetime|0</DataType>
-    </column>
-    <key id="16" parent="8" name="PRIMARY">
+    <key id="17" parent="9" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="17" parent="9" name="version_rank">
+    <column id="18" parent="10" name="version_rank">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="18" parent="9" name="installed_rank">
+    <column id="19" parent="10" name="installed_rank">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="19" parent="9" name="version">
+    <column id="20" parent="10" name="version">
       <Position>3</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="20" parent="9" name="description">
+    <column id="21" parent="10" name="description">
       <Position>4</Position>
       <DataType>varchar(200)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="21" parent="9" name="type">
+    <column id="22" parent="10" name="type">
       <Position>5</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="22" parent="9" name="script">
+    <column id="23" parent="10" name="script">
       <Position>6</Position>
       <DataType>varchar(1000)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="23" parent="9" name="checksum">
+    <column id="24" parent="10" name="checksum">
       <Position>7</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="24" parent="9" name="installed_by">
+    <column id="25" parent="10" name="installed_by">
       <Position>8</Position>
       <DataType>varchar(100)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="25" parent="9" name="installed_on">
+    <column id="26" parent="10" name="installed_on">
       <Position>9</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;current_timestamp()&apos;</DefaultExpression>
     </column>
-    <column id="26" parent="9" name="execution_time">
+    <column id="27" parent="10" name="execution_time">
       <Position>10</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="27" parent="9" name="success">
+    <column id="28" parent="10" name="success">
       <Position>11</Position>
       <DataType>tinyint(1)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="28" parent="9" name="schema_version_ir_idx">
+    <index id="29" parent="10" name="schema_version_ir_idx">
       <ColNames>installed_rank</ColNames>
     </index>
-    <index id="29" parent="9" name="schema_version_s_idx">
+    <index id="30" parent="10" name="schema_version_s_idx">
       <ColNames>success</ColNames>
     </index>
-    <index id="30" parent="9" name="schema_version_vr_idx">
+    <index id="31" parent="10" name="schema_version_vr_idx">
       <ColNames>version_rank</ColNames>
     </index>
-    <key id="31" parent="9" name="PRIMARY">
+    <key id="32" parent="10" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="33" parent="11" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="34" parent="11" name="email">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="35" parent="11" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="36" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
   </database-model>

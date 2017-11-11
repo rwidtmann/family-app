@@ -1,10 +1,13 @@
 package com.familyapp.model;
 
 
+import java.util.Date;
+
 public class FamilyMemberForm {
     private String firstName;
     private String lastName;
     private String middleName;
+    private String maidenName;
 
     public FamilyMemberForm() { }
 
@@ -38,4 +41,11 @@ public class FamilyMemberForm {
         this.middleName = middleName;
     }
 
+    public String getMaidenName() {
+        return maidenName;
+    }
+
+    public void setMaidenName(String maidenName) {
+        this.maidenName = maidenName;
+    }
 }
